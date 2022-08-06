@@ -1,0 +1,275 @@
+@media screen and (min-width: 503px){
+    /*header*/
+.head{ padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 242, 243);
+    background: url(./1st-images/hero-bg.svg);
+}
+
+.text{  padding-top: 50px;
+    text-align: center;
+}
+.text p{ padding-top: 40px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #524b4b;
+}
+
+.link a { text-decoration: none;
+    color: rgb(255, 58, 58);
+}
+.btn{ border: none;
+    padding-top: 60px;
+    padding-bottom: 160px;
+    
+}
+.new{ color: white;
+    background-color:rgb(255, 58, 58) ;
+    height: 50px;
+    width:230px;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+.new:hover{
+    background-color:transparent;
+    border: 1px solid black;
+    color: rgb(255, 58, 58);
+}
+a.new {
+    text-decoration: none;
+}
+
+.experience{font-weight: 500;
+    font-size: 17px;
+    background-color:transparent;
+    height: 50px;
+    width:250px;
+    color:rgb(255, 58, 58);
+    border: 1px solid rgb(255, 58, 58);
+}
+.experience:hover{
+    background-color:rgb(255, 58, 58);
+    color: white;;
+}
+.experience a{
+    text-decoration: none;
+}
+/*end of header */
+/*section */
+
+.zuri-team p{
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 58, 58);
+}
+.zuri-team h4{
+text-align: center;
+line-height: 50px;
+padding-bottom: 50px;
+}
+.btns{ text-decoration: none;
+    color: rgb(255, 58, 58);
+    padding-bottom: 30px;
+}
+.card-body{ color:black;
+    background-color: rgb(252, 242, 243);
+    font-weight: 500;
+    z-index:2;
+ padding-bottom: 70px;
+}
+#card-body-2{
+    color:black;
+    background-color: rgb(252, 242, 243);
+    font-weight: 500;
+ padding-bottom: 92px;
+}
+.mb-3{ text-align: left;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.left{position: absolute;
+    left: -120px;
+    top: 780px;
+    width:400px;
+    overflow: hidden;
+}
+.right{overflow: hidden;
+    position: absolute;
+    left: 940px;
+    top: 780px;
+    width:400px;
+}
+/*end of section */
+/* footer */
+.footer-clean{
+    padding-top: 140px;
+}
+ul li{
+    list-style: none;
+}
+li a{color: #E7332B;
+    text-decoration: none;
+}
+a:hover{
+color: #E7332B;;
+}
+h5{
+    padding-left: 25px;
+}
+.copyright{ padding-top: 30px;
+    text-align: center;
+}
+.socials{
+   width:20px;
+}
+/*end of footer */
+
+}
+@media screen and (max-width: 1300px){
+    .left{display: none;
+     
+    }
+    .right{display: none;
+    }
+}
+@media screen and (min-width: 500px){
+    .footer-clean{ text-align: center;
+        padding-top: 140px;
+    }
+    .socials{ padding-bottom: 50px;
+        width:20px;
+     }
+}
+@media screen and (max-width: 502px){
+    /*header */
+    .head{ padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(252, 242, 243);
+        background: url(./1st-images/hero-bg.svg);
+    }
+    
+    .text{  padding-top: 50px;
+        text-align: center;
+    }
+    .text p{ padding-top: 40px;
+        font-size: 18px;
+        line-height: 25px;
+        color: #524b4b;
+    }
+    
+    .link a { text-decoration: none;
+        color: rgb(255, 58, 58);
+    }
+    .btn{  display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        padding-bottom: 160px;
+        row-gap: 20px;
+        border: none;
+    }
+    .new{ color: white;
+    background-color:rgb(255, 58, 58) ;
+    height: 45px;
+    width:230px;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+.new:hover{
+    background-color:transparent;
+    border: 1px solid rgb(255, 58, 58);
+    color: rgb(255, 58, 58);
+}
+a.new {
+    text-decoration: none;
+}
+
+.experience{font-weight: 500;
+    font-size: 17px;
+    background-color:transparent;
+    height: 45px;
+    width:250px;
+    color:rgb(255, 58, 58);
+    border: 1px solid rgb(255, 58, 58);
+}
+.experience:hover{
+    background-color:rgb(255, 58, 58);
+    color: white;;
+}
+.experience a{
+    text-decoration: none;
+}
+/*end of header */
+/*section */
+.zuri-team p{
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 58, 58);
+}
+.zuri-team h4{
+text-align: center;
+line-height: 50px;
+padding-bottom: 50px;
+}
+.btns{ text-decoration: none;
+    color: rgb(255, 58, 58);
+    padding-bottom: 30px;
+}
+.card-body{ color:black;
+    background-color: rgb(252, 242, 243);
+    font-weight: 500;
+    z-index:2;
+ padding-bottom: 70px;
+}
+#card-body-2{
+    color:black;
+    background-color: rgb(252, 242, 243);
+    font-weight: 500;
+ padding-bottom: 92px;
+}
+.mb-3{ text-align: left;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.left{
+   display: none;
+}
+.right{
+ display: none;
+}
+/*end of section */
+/* footer */
+.footer-clean{ text-align: center;
+    padding-top: 140px;
+}
+ul li{
+    list-style: none;
+}
+li a{color: #E7332B;
+    text-decoration: none;
+}
+a:hover{
+color: #E7332B;;
+}
+.item{
+    padding-top: 20px;
+}
+h5{
+    padding-left: 25px;
+}
+.copyright{ padding-top: 30px;
+    text-align: center;
+}
+.socials{ padding-bottom: 50px;
+   width:20px;
+}
+/*end of footer */
+
+}
