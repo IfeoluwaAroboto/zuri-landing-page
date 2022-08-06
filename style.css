@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(252, 242, 243);
-    background: url(./1st-images/hero-bg.svg);
+    background: url(1st-images\hero-bg.svg);
 }
 
 .text{  padding-top: 50px;
@@ -179,6 +179,7 @@ h5{
     height: 45px;
     width:230px;
     border: none;
+    padding-bottom: 20px;
     font-weight: 500;
     font-size: 17px;
 }
