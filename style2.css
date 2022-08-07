@@ -3,6 +3,9 @@ h4{
 }
 #section-7{
   padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (min-width: 899px){
 
@@ -225,9 +228,46 @@ background-color: rgb(255, 236, 239);
 width:150px;
 padding-top: 170px
   }
-.img7{
-
-}
+  .enroll3{
+    border: none;
+    width:150px;
+border-radius: 20px 20px 20px 20px;
+height: 40px;
+background-color: #E7332B;
+color:white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+ /* faq*/
+ .questions{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  gap: 30px;
+ }
+ .questions p{
+  font-size: 20px;
+  padding-top: 9px;
+  color: gray;
+ }
+ .wire7{
+  width:120px;
+ }
+ .section-8{
+  
+  gap:30px;
+ }
+ .sect{
+  background-color: #E7332B;
+ }
+ .sect h1{ font-size: 50px;
+  padding-top: 20px;
+ 
+ }
+ .sect p{ font-size: 25px;
+  font-weight: 500;
+  padding-top: 20px;
+ }
 }
 @media screen and (min-width: 300px){
   .lady{ padding-top: 20px;
@@ -274,7 +314,7 @@ padding-top: 170px
 
   @media screen and (max-width: 900px){
     .logo{
-      width:200px;
+      width:160px;
       padding-top: 20px;
     }
     .nav-center {
@@ -463,4 +503,31 @@ align-items: center;
     }
     #wire6{
   width:200px;  }
+  .section-8{
+  display: none;
+   }
+   .wire7{
+    width:120px;
+   }
+   .enroll3{
+    border: none;
+    width:200px;
+border-radius: 20px 20px 20px 20px;
+height: 40px;
+background-color: #E7332B;
+color:white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+   .questions{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    gap: 30px;
+   }
+   .questions p{
+    font-size: 20px;
+    padding-top: 9px;
+    color: gray;
+   }
   }
