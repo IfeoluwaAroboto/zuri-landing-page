@@ -52,7 +52,7 @@
     .talents{
         border: none;
         background-color: #E7332B;
-        width: 180px;
+        width: 200px;
         color: white;
         font-size: 16px;
         height: 40px;
@@ -61,17 +61,17 @@
     .talents-pool{
         border: none;
         background-color: rgb(107, 104, 104);
-        width: 150px;
+        width: 200px;
         color: white;
         font-size: 16px;
         height: 40px;
         border-radius: 0px 0px 9px 0px;
     }
-    #text{
-        padding-top: 350px;
+    #text{ padding-left: 50px;
+        padding-top: 270px;
     }
 
-    .section-2{
+    .section-2{ background-color: rgb(255, 235, 238) ;
         padding-top:200px ;
     }
     #text p{
@@ -80,12 +80,121 @@
 #section{ padding-top: 90px;
   width: 500px;
 }
-#section2{
-   
+#sect{ padding: 30px;
+   width:500px;
   }
 span{
     color:#E7332B;
-}}
+}
+.section-3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#card{
+  width:250px;
+  height: 60px;
+  color: gray;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+text-align: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#card:hover{
+  position:relative;
+  top: -20px;
+  transition: ease-in-out;
+}
+#card3{ color: black;
+  height:300px;
+}
+#card3:hover{
+background-color: black;
+color:white;
+}
+#cardbody{
+  width:400px;
+  height: 300px;
+}
+#cardbody:hover{
+  background-color: black;
+  color:white;
+  }
+#card2{
+  width:200px;
+  height: 60px;
+  color: gray;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+text-align: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section-4{
+  padding-top: 70px;
+  padding-bottom:70px;
+  background-color:  rgb(255, 235, 238);
+}
+.section-5{
+  padding-bottom: 30px;
+  background-color:  rgb(255, 235, 238);
+} ;
+.social-icons
+{
+  text-align:center
+}
+
+.social-icons
+{
+padding-left:0;
+margin-bottom:0;
+list-style:none
+}
+.social-icons li
+{
+display:inline-block;
+margin-bottom:4px
+}
+.social-icons li.title
+{
+margin-right:15px;
+text-transform:uppercase;
+color:#96a2b2;
+font-weight:700;
+font-size:13px
+}
+.social-icons a{
+background-color:#96a2b2;
+color:#ffff;
+font-size:20px;
+display:inline-block;
+line-height:44px;
+width:44px;
+height:44px;
+text-align:center;
+margin-right:8px;
+
+-webkit-transition:all .2s linear;
+-o-transition:all .2s linear;
+transition:all .2s linear
+}
+.social-icons.size-sm a
+{
+line-height:34px;
+height:34px;
+width:34px;
+font-size:14px
+}
+.zuri img{
+  padding-bottom: 40px;
+}
+.privacy{
+  display: flex;
+  padding-top:30px ;
+  gap: 30px;
+}
+.home{
+  border-bottom: 3px solid #E7332B;
+}
+}
 @media screen and (max-width: 900px) {
     .nav-center {
         overflow: hidden;
@@ -96,11 +205,11 @@ span{
         height: auto;
         z-index: 2;
         }
-        .nav{
+        .nav{ overflow:hidden;
           display: flex;
           color: #f2f2f2;
           text-align: center;
-          justify-content: space-between;
+          justify-content: space-evenly;
           padding: 14px 16px;
           text-decoration: none;
           
@@ -108,7 +217,7 @@ span{
         .nav-header {  position: relative;
           padding-left: 50px;
         }
-        .logo{ width:150px;
+        .logo{ width:100px;
         }
         .nav-toggle {
           display: none;
@@ -120,7 +229,7 @@ span{
         .talents{
             border: none;
             background-color: #E7332B;
-            width: 180px;
+            width: 200px;
             color: white;
             font-size: 16px;
             height: 40px;
@@ -129,20 +238,20 @@ span{
         .talents-pool{
             border: none;
             background-color: rgb(107, 104, 104);
-            width: 150px;
+            width: 200px;
             color: white;
             font-size: 16px;
             height: 40px;
             border-radius: 0px 0px 9px 0px;
         }
         #text{
-            padding-top: 350px;
+            padding-top: 90px;
         }
         #text p{
             font-size: 20px;
         }
   
-    .section-2{
+    .section-2{background-color: rgb(255, 235, 238);
         padding-top:90px ;
     }
     #text p{
@@ -151,7 +260,113 @@ span{
 #section{ padding-top: 90px;
   width: 500px;
 }
-#section2{
-   
+#sect{
+   padding-top: 80px;
   }
+  span{
+    color:#E7332B;
+}
+.section-3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#card{
+ 
+  color: gray;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+text-align: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#card:hover{
+  position:relative;
+  top: -20px;
+  transition: ease-in-out;
+}
+#card3{  width: 300px;
+  overflow:hidden;
+  height:300px;
+}
+#card3:hover{background-color: black;
+  color:white;
+}
+
+#cardbody:hover{background-color: black;
+  color:white;
+}
+#cardbody{ overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+#card2{
+  
+  color: gray;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+text-align: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section-4{
+  padding-top: 70px;
+  padding-bottom:70px;
+  background-color:  rgb(255, 235, 238);
+}
+.section-5{
+  padding-bottom: 30px;
+  background-color:  rgb(255, 235, 238);
+} ;
+.social-icons
+{
+  text-align:center
+}
+
+.social-icons
+{
+padding-left:0;
+margin-bottom:0;
+list-style:none
+}
+.social-icons li
+{
+display:inline-block;
+margin-bottom:4px
+}
+.social-icons li.title
+{
+margin-right:15px;
+text-transform:uppercase;
+color:#96a2b2;
+font-weight:700;
+font-size:13px
+}
+.social-icons a{
+background-color:#96a2b2;
+color:#ffff;
+font-size:16px;
+display:inline-block;
+line-height:44px;
+width:34px;
+height:34px;
+text-align:center;
+margin-right:8px;
+
+-webkit-transition:all .2s linear;
+-o-transition:all .2s linear;
+transition:all .2s linear
+}
+.social-icons.size-sm a
+{
+line-height:34px;
+height:34px;
+width:34px;
+font-size:14px
+}
+.zuri img{
+  padding-bottom: 40px;
+}
+.privacy{
+  display: flex;
+  padding-top:30px ;
+  gap: 30px;
+}
 }
