@@ -152,7 +152,7 @@ h5{
         justify-content: center;
         align-items: center;
         background-color: rgb(252, 242, 243);
-        background: url(./1st-images/hero-bg.svg);
+        background: url(./1st-images/hero-bg.svg)
     }
     
     .text{  padding-top: 50px;

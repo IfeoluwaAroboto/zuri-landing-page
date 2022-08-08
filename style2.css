@@ -198,6 +198,7 @@ h5 a{
 border-radius: 20px 20px 20px 20px;
 height: 40px;
 color: #E7332B;
+background-color: #ffff;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .subsection{
@@ -538,8 +539,8 @@ h5 a{
   width:150px;
 border-radius: 20px 20px 20px 20px;
 height: 40px;
-background-color: #E7332B;
-color;: white
+background-color: white;;
+color: #E7332B;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .subsection{
